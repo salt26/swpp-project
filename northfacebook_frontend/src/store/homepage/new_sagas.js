@@ -1332,7 +1332,6 @@ function *putArticle(id, text, removeImg, images, removeUrl, url){
 
     if(removeUrl === true) {
         if(url === null || url === '' || url === 'null') {
-            alert(url);
             form.append('youtube_video', 'None');
         }
         else
